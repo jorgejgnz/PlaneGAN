@@ -51,7 +51,7 @@ To evaluate the discriminator, we measure the accuracy with which it classifies 
 
 ## Discriminator
 
-The following figure shows how the discriminator evolves with the passing of epochs. It can be clearly seen that the loss of the classifier decreases steadily while the loss of the generator increases steadily. Moreover, the discriminator hardly fails to detect false images during the whole training. These are indicative of the network not converging, a [common problem in GAN networks](https://machinelearningmastery.com/practical-guide-to-gan-failure-modes/).\ However, the generator has managed to produce several realistic images in the final epochs of the training.
+The following figure shows how the discriminator evolves with the passing of epochs. It can be clearly seen that the loss of the classifier decreases steadily while the loss of the generator increases steadily. Moreover, the discriminator hardly fails to detect false images during the whole training. These are indicative of the network not converging, a [common problem in GAN networks](https://machinelearningmastery.com/practical-guide-to-gan-failure-modes/). However, the generator has managed to produce several realistic images in the final epochs of the training.
 
 ![Loss evolution for generator and discriminator.[\[long\]]{#long
 label="long"}](images/loss.png)
@@ -67,6 +67,6 @@ The vast majority of the images in the dataset include centered photos of white 
 
 The quality of the images produced by the generator is satisfactory but the loss of the generator follows an upward trend. A possible improvement would be to use progressively higher resolution images during the training of both the generator and the discriminator ([Progressive Growing GAN](https://machinelearningmastery.com/introduction-to-progressive-growing-generative-adversarial-networks/)). It would also be useful to evaluate the generator using a metric, such as the Frechlet Initial Distance (FID), rather than performing this evaluation subjectively.
 
-# Licencia
+# License
 
 [MIT](LICENSE)
