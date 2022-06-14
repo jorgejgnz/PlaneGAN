@@ -6,11 +6,11 @@
   <a href="README.es-ES.md">Español</a>
 </p>
 
-Deep Convolutional Generative Adversarial Network (DCGAN) that generates aircraft images. Project developed for the course Artifical Neural Networks of the master MUIARFID (UPV).
+Deep Convolutional Generative Adversarial Network (DCGAN) that generates aircraft images. Project developed for the course Artifical Neural Networks, as part of the MUIARFID Master's Degree (UPV).
 
 The code provided by [Erik Linder-Norén (2018)](https://github.com/eriklindernoren/Keras-GAN/blob/master/dcgan/dcgan.py) in his implementation of a DCGAN in Keras has been used as a basis for this project.
 
-Below are some of the best images generated at the end of the training.
+Below are shown some of the best images generated at the end of the training.
 
 <p float="left">
   <img src="images/generated/16.png" width="200" />
